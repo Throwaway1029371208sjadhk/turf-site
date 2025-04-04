@@ -1,0 +1,68 @@
+:root {
+    background-color: #FFF;
+    color: #1e1e1e;
+  }
+
+  html,body {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .centered {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  
+  a {
+    margin: 0 3px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: blue;
+  }
+  
+  hr {
+    width: 20rem;
+  }
+  
+  #wrapper {
+    width: 45%;
+    background-color: greenyellow;
+    margin: 1rem auto;
+    padding: 15px;
+    border: 3px dotted;
+    border-radius: 10px;
+  }
+  
+  #head {
+    background-color: lavender;
+    margin: 25px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  ul, ol {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  img {
+    margin: 1rem 0;
+    width: 98%;
+    border-radius: 10px;
+    height: auto;
+  }  
